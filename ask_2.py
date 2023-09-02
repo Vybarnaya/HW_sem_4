@@ -21,14 +21,14 @@ list2 = []
 for i in range(n-1):
     sum1 = (int(list1[i-1])+int(list1[i])+int(list1[i+1]))
     i+=1
-    print(sum1)     
+    #print(sum1)     
     list2.append(sum1)
     #print(list2)
 if i == n-1:
         sum1 = (int(list1[n-2])+int(list1[n-1])+int(list1[0]))
-        print(sum1)
+        #print(sum1)
         list2.append(sum1)
-        print(list2)
+        #print(list2)
 
 sum_max= list2[0]
 for i in range(0,len(list2)):
